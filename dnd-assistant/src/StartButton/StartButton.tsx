@@ -1,10 +1,13 @@
 import './StartButton.css';
 
 
+function EmbarkButton(){
+    alert("Not ready yet")
+}
 
 function StartButton() {
     return (
-        <button>Embark</button>
+        <button onClick={EmbarkButton}>Embark</button>
     );
 }
 
