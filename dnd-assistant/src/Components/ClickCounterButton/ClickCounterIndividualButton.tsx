@@ -1,5 +1,5 @@
-import { useState } from "react";
-import styled from "styled-components";
+import { useState } from 'react'
+import styled from 'styled-components'
 
 //#region Styles
 const CountingIndividualButton = styled.button`
@@ -16,14 +16,14 @@ const CountingIndividualButton = styled.button`
         background-color: rgb(83, 2, 158);
     }
     
-`;
+`
 //#endregion
 
 function ClickCounterIndividualButton(){
-    const [clickCount, setClickCount] = useState(0);
+    const [clickCount, setClickCount] = useState(0)
 
     function buttonClick(){
-        setClickCount(clickCount + 2);
+        setClickCount(clickCount + 2)
     }
 
     return (
@@ -33,4 +33,4 @@ function ClickCounterIndividualButton(){
     )
 }
 
-export default ClickCounterIndividualButton;
+export default ClickCounterIndividualButton

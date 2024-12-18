@@ -1,29 +1,29 @@
-import AbilityScoresPanel from "../AbilityScoresPanel/AbilityScoresPanel"
-import styled from "styled-components"
+import AbilityScoresPanel from '../AbilityScoresPanel/AbilityScoresPanel'
+import styled from 'styled-components'
 
 const Carousel = styled.div({
-    display: "flex",
-    flexDirection: "row",
-    backgroundColor: "white",
+    display: 'flex',
+    flexDirection: 'row',
+    backgroundColor: 'white',
     borderRadius: 20,
     padding: 40,
-    alignItems: "center",
+    alignItems: 'center',
     '& button': {
         maxWidth: 10,
-        backgroundColor: "brown",
+        backgroundColor: 'brown',
         height: 25,
-        textAlign: "center",
+        textAlign: 'center',
         paddingTop: -10,
     },
     '& input': {
-        border: "none",
+        border: 'none',
         padding: 10
     }
 })
 
 const Arrow = styled.span({
-    transform: "scale(-1,1)",
-    display: "inline-block",
+    transform: 'scale(-1,1)',
+    display: 'inline-block',
 })
 
 function CreatorCarousel(){

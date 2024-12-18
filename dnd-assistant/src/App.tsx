@@ -1,15 +1,15 @@
 import './App.css'
 import ClickCounterButton from './Components/ClickCounterButton/ClickCounterButton'
-import ClickCounterIndividualButton from './Components/ClickCounterButton/ClickCounterIndividualButton';
+import ClickCounterIndividualButton from './Components/ClickCounterButton/ClickCounterIndividualButton'
 import StartButton from './Components/StartButton/StartButton'
-import CreatorCarousel from './Components/CreatorCarousel/CreatorCarousel';
-import { useState } from 'react';
+import CreatorCarousel from './Components/CreatorCarousel/CreatorCarousel'
+import { useState } from 'react'
 
 function App() {
-  const [clickCount, setClickCount] = useState(0);
+  const [clickCount, setClickCount] = useState(0)
 
     function handleClick(){
-        setClickCount(clickCount + 1);
+        setClickCount(clickCount + 1)
     }
   
   return (
