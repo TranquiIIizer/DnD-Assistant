@@ -1,7 +1,8 @@
 import './App.css'
-import ClickCounterButton from './ClickCounterButton/ClickCounterButton'
-import ClickCounterIndividualButton from './ClickCounterButton/ClickCounterIndividualButton';
-import StartButton from './StartButton/StartButton'
+import ClickCounterButton from './Components/ClickCounterButton/ClickCounterButton'
+import ClickCounterIndividualButton from './Components/ClickCounterButton/ClickCounterIndividualButton';
+import StartButton from './Components/StartButton/StartButton'
+import CreatorCarousel from './Components/CreatorCarousel/CreatorCarousel';
 import { useState } from 'react';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <ClickCounterButton count={clickCount} onClick={handleClick}/>
       <ClickCounterButton count={clickCount} onClick={handleClick}/>
       <ClickCounterIndividualButton />
+      <CreatorCarousel></CreatorCarousel>
     </>
   )
 }
